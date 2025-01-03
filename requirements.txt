@@ -4,3 +4,8 @@ openpyxl
 sqlalchemy
 scikit-learn
 seaborn
+geopandas
+folium
+statsmodels
+scikit-learn-extra
+minisom
