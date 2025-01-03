@@ -1,0 +1,104 @@
+{
+  "builder_name": "id_nergrit_corpus",
+  "citation": "@inproceedings{id_nergrit_corpus,\n  author    = {Gria Inovasi Teknologi},\n  title     = {NERGRIT CORPUS},\n  year      = {2019},\n  url       = {https://github.com/grit-id/nergrit-corpus},\n}\n",
+  "config_name": "ner",
+  "dataset_name": "id_nergrit_corpus",
+  "dataset_size": 7650361,
+  "description": "Nergrit Corpus is a dataset collection for Indonesian Named Entity Recognition, Statement Extraction, and Sentiment\nAnalysis. id_nergrit_corpus is the Named Entity Recognition of this dataset collection which contains 18 entities as\nfollow:\n    'CRD': Cardinal\n    'DAT': Date\n    'EVT': Event\n    'FAC': Facility\n    'GPE': Geopolitical Entity\n    'LAW': Law Entity (such as Undang-Undang)\n    'LOC': Location\n    'MON': Money\n    'NOR': Political Organization\n    'ORD': Ordinal\n    'ORG': Organization\n    'PER': Person\n    'PRC': Percent\n    'PRD': Product\n    'QTY': Quantity\n    'REG': Religion\n    'TIM': Time\n    'WOA': Work of Art\n    'LAN': Language\n",
+  "download_checksums": {
+    "https://github.com/cahya-wirawan/indonesian-language-models/raw/master/data/nergrit-corpus_20190726_corrected.tgz": {
+      "num_bytes": 14987801,
+      "checksum": null
+    }
+  },
+  "download_size": 14987801,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "B-CRD",
+          "B-DAT",
+          "B-EVT",
+          "B-FAC",
+          "B-GPE",
+          "B-LAN",
+          "B-LAW",
+          "B-LOC",
+          "B-MON",
+          "B-NOR",
+          "B-ORD",
+          "B-ORG",
+          "B-PER",
+          "B-PRC",
+          "B-PRD",
+          "B-QTY",
+          "B-REG",
+          "B-TIM",
+          "B-WOA",
+          "I-CRD",
+          "I-DAT",
+          "I-EVT",
+          "I-FAC",
+          "I-GPE",
+          "I-LAN",
+          "I-LAW",
+          "I-LOC",
+          "I-MON",
+          "I-NOR",
+          "I-ORD",
+          "I-ORG",
+          "I-PER",
+          "I-PRC",
+          "I-PRD",
+          "I-QTY",
+          "I-REG",
+          "I-TIM",
+          "I-WOA",
+          "O"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "https://github.com/grit-id/nergrit-corpus",
+  "license": "",
+  "size_in_bytes": 22638162,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5428379,
+      "num_examples": 12532,
+      "dataset_name": "id_nergrit_corpus"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1135561,
+      "num_examples": 2399,
+      "dataset_name": "id_nergrit_corpus"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1086421,
+      "num_examples": 2521,
+      "dataset_name": "id_nergrit_corpus"
+    }
+  },
+  "version": {
+    "version_str": "1.1.0",
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  }
+}

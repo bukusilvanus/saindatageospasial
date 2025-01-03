@@ -9,3 +9,5 @@ folium
 statsmodels
 scikit-learn-extra
 minisom
+tensorflow
+transformers
