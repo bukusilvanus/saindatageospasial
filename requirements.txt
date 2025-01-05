@@ -11,3 +11,4 @@ scikit-learn-extra
 minisom
 tensorflow
 transformers
+rasterio
